@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  /* font-family: 'Fraunces', serif; */
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin: auto;
+  padding-top: 2rem;
+}
+a {
+    padding: 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+button{
+    color: hsl(212,27%,19%);
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: none;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    letter-spacing: 0.5rem;
+}
+.firstSection{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 11rem;
+}
+.monkey{
+        display: flex;
+        justify-content: center;
+}
+.leftSide{
+width: 70%;
+margin: auto;
+
+}
+.leftSide h2{
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.leftSide p{
+    padding-bottom: 2rem;
+    font-size: 18px;
+    color: hsl(212, 27%, 19%);
+} 
+  .secondSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: hsl(7deg, 67%, 96%);
+
+  }
