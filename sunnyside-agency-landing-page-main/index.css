@@ -5,7 +5,6 @@
 }
 body {
   font-family: "Barlow", sans-serif;
-  /* font-family: 'Fraunces', serif; */
 }
 nav {
   display: flex;
@@ -16,57 +15,90 @@ nav {
   padding-top: 2rem;
 }
 a {
-    padding: 1rem;
+  padding: 1rem;
   color: white;
   text-decoration: none;
   font-size: 19px;
 }
-button{
-    color: hsl(212,27%,19%);
-    text-transform: uppercase;
-    font-family: 'Fraunces', serif;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-weight: 700;
-    border: none;
+button {
+  color: hsl(212, 27%, 19%);
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  border: none;
 }
-h1{
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    font-family: 'Fraunces', serif;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    letter-spacing: 0.5rem;
+h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  letter-spacing: 0.5rem;
 }
-.firstSection{
-    background-image: url(images/desktop/image-header.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 11rem;
+.firstSection {
+  background-image: url(images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 11rem;
 }
-.monkey{
-        display: flex;
-        justify-content: center;
+.monkey {
+  display: flex;
+  justify-content: center;
 }
-.leftSide{
-width: 70%;
-margin: auto;
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.centeredText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 6rem;color: hsl(212, 27%, 19%);
 
 }
-.leftSide h2{
-  font-family: 'Fraunces', serif;
+.centeredText h2{
+  font-family: "Fraunces", serif;
   font-size: 2rem;
-    padding-bottom: 2rem;
 }
-.leftSide p{
-    padding-bottom: 2rem;
-    font-size: 18px;
-    color: hsl(212, 27%, 19%);
-} 
-  .secondSection{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: hsl(7deg, 67%, 96%);
+.centeredText p{
+  line-height: 24px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.apple{
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  height: 100vh;background-size: cover;
+  background-position: center;display: flex;
+  justify-content: end;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 7rem;
+  color: hsl(167, 40%, 24%);
+}
+.orange{
+  background-image: url(images/desktop/image-photography.jpg);
+  height: 100vh;
+background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 7rem;
+  color: hsl(198, 62%, 26%);
+}
+.paragraph{
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+  line-height: 24px;
+  font-size: 18px;
+}
+.sentence{
+  font-family: "Fraunces", serif;
+  
+  
+}
 
-  }
