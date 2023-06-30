@@ -97,8 +97,98 @@ background-size: cover;
   font-size: 18px;
 }
 .sentence{
-  font-family: "Fraunces", serif;
-  
-  
+  font-family: "Fraunces", serif; 
 }
+.threeColumns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);}
+  .ct{
+    color: grey;
+    text-align: center;
+    padding-top: 8rem;
+    font-family: "Fraunces", serif;
+  }
+  .emily{
+    border-radius: 50%;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 50px;
+  }
+  .para{
+    padding: 0 6rem;
+    color: hsl(212, 27%, 19%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 24px;
+    font-size: 20px;
+  }
+  .par{
+    color: hsl(212, 27%, 19%);
+    padding-top: 4rem;
+    font-family: "Fraunces", serif;
+    text-align: center;
+  }
+  h6{
+    text-align: center;
+    color: grey;
+    padding-bottom: 3rem;
+  }
+  .thomas{
+border-radius: 100%;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 10px;}
+  .th{
+    padding-bottom: 4rem;
+    line-height: 24px;
+  }
+  .tho{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: "Fraunces", serif;
+    font-size: 20px;
 
+  }
+  .thomas h6{
+    padding-top: 1rem;
+  }
+  .fourthColumns{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+  }
+  .sweet{
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding-bottom: 4rem;
+  }
+  .last{
+    background-color: lightseagreen;
+  }
+  .sunny{
+    color: hsl(167, 40%, 24%);
+    padding-top: 8rem;
+  }
+  .link a{
+    color: hsl(167, 40%, 24%);display: flex;
+    display: flex;
+    justify-content: center;
+  }
+  .media{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+  }
+  /* .fourthColumns img{
+    width: 50%;
+  } */
+  
