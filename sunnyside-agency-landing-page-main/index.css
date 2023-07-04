@@ -102,7 +102,7 @@ background-size: cover;
 .threeColumns{
   display: grid;
   grid-template-columns: repeat(3, 1fr);}
-  .ct{
+  /* .ct{
     color: grey;
     text-align: center;
     padding-top: 8rem;
@@ -160,7 +160,41 @@ border-radius: 100%;
   }
   .thomas h6{
     padding-top: 1rem;
+  } */
+  .threeColumns{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 2rem;
   }
+  .threeColumns h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .thirdColumns p{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+  }
+  .threeColumns img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .fourthColumns{
     display: grid;
     grid-template-columns: repeat(4 1fr);
@@ -191,4 +225,7 @@ border-radius: 100%;
   /* .fourthColumns img{
     width: 50%;
   } */
-  
+  footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
