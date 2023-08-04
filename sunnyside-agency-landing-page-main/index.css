@@ -97,105 +97,34 @@ h1 {
   padding: 0 7rem;
   color: hsl(198, 62%, 26%);
 }
-/* .paragraph{
-  padding-top: 1.5rem;
-  padding-bottom: 2.5rem;
-  line-height: 24px;
-  font-size: 18px;
-} */
-/* .sentence{
-  font-family: "Fraunces", serif; 
-}
-.threeColumns{
+.testimonials {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);} */
-/* .ct{
-    color: grey;
-    text-align: center;
-    padding-top: 8rem;
-    font-family: "Fraunces", serif;
-  }
-  .emily{
-    border-radius: 50%;
-    width: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    height: 50px;
-  }
-  .para{
-    padding: 0 6rem;
-    color: hsl(212, 27%, 19%);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 24px;
-    font-size: 20px;
-  }
-  .par{
-    color: hsl(212, 27%, 19%);
-    padding-top: 4rem;
-    font-family: "Fraunces", serif;
-    text-align: center;
-  }
-  h6{
-    text-align: center;
-    color: grey;
-    padding-bottom: 3rem;
-  }
-  .thomas{
-border-radius: 100%;
-    width: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    font-size: 10px;}
-  .th{
-    padding-bottom: 4rem;
-    line-height: 24px;
-  }
-  .tho{
-    text-align: center;
-    padding-bottom: 1rem;
-    font-family: "Fraunces", serif;
-    font-size: 20px;
-
-  }
-  .thomas h6{
-    padding-top: 1rem;
-  } */
-.thirdColumns {
-  display: grid;
-  grid-template-columns: repeat(3 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-.thirdColumns img {
+.threeColumns img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-.threeColumns h2 {
+.threeColumns p {
+  color: grey;
+  padding-top: 4rem;
+  line-height: 1.5;
+  color: grey;
+}
+.ct {
   text-align: center;
-  color: gray;
+  color: grey;
 }
-.threeColumns p img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fourColumns {
+.fourColumns{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.fourColumns img {
+.fourColumns img{
   width: 100%;
-  display: block;
 }
-footer .logo {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,5 +160,20 @@ footer {
     order: 2;
     padding: 2rem 1rem;
     text-align: center;
+  }
+  .apple {
+    padding: 0 1rem;
+  }
+  .orange {
+    padding: 0 1rem;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .fourColumns{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fourColumns img{
+    display: block;
   }
 }
