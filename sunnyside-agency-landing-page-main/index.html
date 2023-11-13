@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sunnyside</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link
       rel="shortcut icon"
@@ -24,13 +37,16 @@
     <div class="firstSection">
       <nav>
         <div><img src="images/logo.svg" alt="logo" /></div>
-        <div class="links">
+        <div id="href" class="links">
+          <i onclick="hideMenu()" class="fa fa-times"></i>
+          <div class="navLinks">
           <a href="#" class="navlink">About</a>
           <a href="#" class="navlink">Service</a>
           <a href="#" class="navlink">Projects</a>
           <a href="#" class="button"><button>Contact</button></a>
+          </div>
         </div>
-        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="menu"><i onclick="showMenu()" class="fa-solid fa-bars"></i></div>
       </nav>
       <h1>We are creatives</h1>
       <div class="monkey">
@@ -55,7 +71,7 @@
           width="100%"
         />
       </div>
-    </section> 
+    </section>
     <section class="gridContainer">
       <div>
         <img
@@ -91,25 +107,34 @@
       </div>
     </section>
     <div class="ct"><h2>Clients Testimonials</h2></div>
-     <section class="testimonials">
-    <div class="threeColumns">
-      <img src="images/image-emily.jpg" alt="emily">
-      <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-      <h3>Emily R.</h3>
-      <h6>Marketing Director</h6>
-    </div>
-    <div class="threeColumns">
-      <img src="images/image-thomas.jpg" alt="thomas">
-      <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-      <h3>Thomas S.</h3>
-      <h6>Chieft Operating Officer</h6>
-    </div>
-    <div class="threeColumns">
-      <img src="images/image-jennie.jpg" alt="jennie">
-      <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-      <h3>Jennie F.</h3>
-      <h6>Business Owner</h6>
-    </div>
+    <section class="testimonials">
+      <div class="threeColumns">
+        <img src="images/image-emily.jpg" alt="emily" />
+        <p>
+          We put our trust in Sunnyside and they delivered, making sure our
+          needs were met and deadlines were always hit.
+        </p>
+        <h3>Emily R.</h3>
+        <h6>Marketing Director</h6>
+      </div>
+      <div class="threeColumns">
+        <img src="images/image-thomas.jpg" alt="thomas" />
+        <p>
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+          success made it a satisfying and enjoyable experience.
+        </p>
+        <h3>Thomas S.</h3>
+        <h6>Chieft Operating Officer</h6>
+      </div>
+      <div class="threeColumns">
+        <img src="images/image-jennie.jpg" alt="jennie" />
+        <p>
+          Incredible end result! Our sales increased over 400% when we worked
+          with Sunnyside. Highly recommended!
+        </p>
+        <h3>Jennie F.</h3>
+        <h6>Business Owner</h6>
+      </div>
     </section>
     <section class="fourColumns">
       <div>
@@ -121,15 +146,22 @@
         <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar" />
       </div>
     </section>
+    <center>
     <footer>
-      <div class="logo">
-        <img src="images/logo2.svg" alt="logo" />
-        <div>
+        <div class="sunny"><img src="images/logo2.svg" alt="logo" /></div>
+        <div class="about">
           <a href="#">About</a>
           <a href="#">Services</a>
           <a href="#">Projects</a>
         </div>
-      </div>
+        <div class="icons">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
     </footer>
+    </center>
+    <script src="index.js"></script>
   </body>
 </html>
